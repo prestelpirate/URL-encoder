@@ -1,0 +1,45 @@
+body, input, div
+{
+  font-size: 25.333px; /* PhoneFontSizeMediumLarge */
+  background: black;
+  color: white;
+}
+ 
+h2
+{
+  font-weight: normal;
+  font-size: 32px; /* PhoneFontSizeLarge */
+  color:#FFC312;
+}
+ 
+h1
+{
+  font-weight: normal;
+  font-size: 42.667px; /* PhoneFontSizeExtraLarge */
+  color:#FFC312;
+}
+ 
+input[type="button"], input[type="submit"]
+{
+  background: black;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  padding: 4px 10px;
+  border-width: 3px; /* PhoneBorderThickness */
+  font-size: 25.333px; /* PhoneFontSizeMediumLarge */
+}
+ 
+input[type="button"]:active, input[type="submit"]:active
+{
+  background: white;
+  color: black;
+}
+ 
+input[type="text"]
+{
+  width: 200px;
+  padding: 4px;
+  color:#990000;
+  background: white;
+}

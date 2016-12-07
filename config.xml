@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        version="1.0.1.0" id="encoder">
+ 
+  <author href="http://www.gaeltd.com">GAE Ltd</author>
+ 
+  <name>URL Encoder</name>
+ 
+  <description>
+This utility will allow you to encode/decode URL strings.  </description>
+ 
+  <rim:permissions>
+
+  </rim:permissions>
+ 
+  <icon src="icon.png"/>
+ 
+  <rim:splash src="SplashScreenImage.jpg"/>
+ 
+  <content src="index.html" rim:allowInvokeParams="true"/>
+ 
+  <feature id="blackberry.ui.dialog"/>
+   
+  <feature id="blackberry.app">
+    <param name="mode" value="portrait" />
+  </feature>
+ 
+  <feature id="blackberry.app">
+    <param name="backgroundColor" value="0xFFFF0000" />
+  </feature>
+ 
+  <license href="http://www.gaeltd.com"/>
+ 
+</widget>

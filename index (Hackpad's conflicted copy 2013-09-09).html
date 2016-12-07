@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html> 
+	<head>
+		<meta name="x-blackberry-defaultHoverEffect" content="false" />
+		<!-- <meta name="viewport" content="initial-scale=1.0,width=device-width,user-scalable=no,target-densitydpi=device-dpi" /> -->
+		<meta name="viewport" id="viewport" content="initial-scale=1.0,user-scalable=no, maximum-scale=1.0" />
+		<link  rel="stylesheet" type="text/css" href="bbui-0.9.4.css"><link />
+		<script type="text/javascript" src="bbui-0.9.4.js"></script>
+		<script type="text/javascript" src="js/webworks-1.0.4.5.js"></script>
+		
+<script type="text/javascript">
+function encode() {
+	var obj = document.getElementById('dencoder');
+	var unencoded = obj.value;
+	obj.value = encodeURIComponent(unencoded);
+}
+function decode() {
+	var obj = document.getElementById('dencoder');
+	var encoded = obj.value;
+	obj.value = decodeURIComponent(encoded.replace(/\+/g,  " "));
+}
+</script>
+	
+          <script type="text/javascript">
+          document.addEventListener('webworksready', function(e) {
+              bb.init({actionBarDark: true, controlsDark: true, listsDark: true, bb10ForPlayBook: true});
+              // Open our first screen
+              bb.pushScreen('encoder.html', 'encoder');
+          }, false);
+          </script>
+	</head>
+	<body>	
+	</body>
+</html>
